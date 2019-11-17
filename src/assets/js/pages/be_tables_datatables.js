@@ -95,7 +95,7 @@
                         autoWidth: !1
                     }), jQuery(".js-dataTable-full-pagination").dataTable({
                         pagingType: "full_numbers",
-                        order: [[ 0, "desc" ]]
+                        order: [[ 0, "desc" ]],
                         pageLength: 10,
                         lengthMenu: [
                             [5, 10, 15, 20],

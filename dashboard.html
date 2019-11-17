@@ -1,0 +1,1557 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <title>BIR Portal</title>
+
+        <meta name="description" content="OneUI - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+
+        <!-- Open Graph Meta -->
+        <meta property="og:title" content="OneUI - Bootstrap 4 Admin Template &amp; UI Framework">
+        <meta property="og:site_name" content="OneUI">
+        <meta property="og:description" content="OneUI - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="src/assets/media/favicons/favicon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="src/assets/media/favicons/favicon-192x192.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="src/assets/media/favicons/apple-touch-icon-180x180.png">
+        <!-- END Icons -->
+
+        <link rel="stylesheet" href="src/assets/js/plugins/fullcalendar/fullcalendar.min.css">
+
+        <!-- Stylesheets -->
+        <!-- Fonts and OneUI framework -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+        <link rel="stylesheet" id="css-main" href="src/assets/css/oneui.css">
+        <link rel="stylesheet" href="src/assets/css/custom.css">
+
+        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+        <!-- <link rel="stylesheet" id="css-theme" href="src/assets/css/themes/amethyst.min.css"> -->
+        <!-- END Stylesheets -->
+    </head>
+    <body>
+       
+        <div id="page-container" class="sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed">
+            <!-- Side Overlay-->
+            <aside id="side-overlay" class="font-size-sm">
+                <!-- Side Header -->
+                <div class="content-header border-bottom">
+                    <!-- User Avatar -->
+                    <a class="img-link mr-1" href="javascript:void(0)">
+                        <img class="img-avatar img-avatar32" src="src/assets/media/avatars/avatar10.jpg" alt="">
+                    </a>
+                    <!-- END User Avatar -->
+
+                    <!-- User Info -->
+                    <div class="ml-2">
+                        <a class="link-fx text-dark font-w600" href="javascript:void(0)">Juan Dela Cruz</a>
+                    </div>
+                    <!-- END User Info -->
+
+                    <!-- Close Side Overlay -->
+                    <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                    <a class="ml-auto btn btn-sm btn-dual" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_close">
+                        <i class="fa fa-fw fa-times text-danger"></i>
+                    </a>
+                    <!-- END Close Side Overlay -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side Content -->
+                <div class="content-side">
+                    <!-- Side Overlay Tabs -->
+                    <div class="block block-transparent pull-x pull-t">
+                        <ul class="nav nav-tabs nav-tabs-alt nav-justified" data-toggle="tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#so-overview">
+                                    <i class="fa fa-fw fa-coffee text-gray mr-1"></i> Overview
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#so-sales">
+                                    <i class="fa fa-fw fa-chart-line text-gray mr-1"></i> Sales
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="block-content tab-content overflow-hidden">
+                            <!-- Overview Tab -->
+                            <div class="tab-pane pull-x fade fade-left show active" id="so-overview" role="tabpanel">
+                                <!-- Activity -->
+                                <div class="block">
+                                    <div class="block-header block-header-default">
+                                        <h3 class="block-title">Recent Activity</h3>
+                                        <div class="block-options">
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                                <i class="si si-refresh"></i>
+                                            </button>
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <!-- Activity List -->
+                                        <ul class="nav-items mb-0">
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="si si-wallet text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale (Php15)</div>
+                                                        <div class="text-success">Admin Template</div>
+                                                        <small class="text-muted">3 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="si si-pencil text-info"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">You edited the file</div>
+                                                        <div class="text-info">
+                                                            <i class="fa fa-file-text"></i> Documentation.doc
+                                                        </div>
+                                                        <small class="text-muted">15 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="si si-close text-danger"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Project deleted</div>
+                                                        <div class="text-danger">Line Icon Set</div>
+                                                        <small class="text-muted">4 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- END Activity List -->
+                                    </div>
+                                </div>
+                                <!-- END Activity -->
+
+                                <!-- Online Friends -->
+                                <div class="block">
+                                    <div class="block-header block-header-default">
+                                        <h3 class="block-title">Online Friends</h3>
+                                        <div class="block-options">
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                                <i class="si si-refresh"></i>
+                                            </button>
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <!-- Users Navigation -->
+                                        <ul class="nav-items mb-0">
+                                            <li>
+                                                <a class="media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2 overlay-container overlay-bottom">
+                                                        <img class="img-avatar img-avatar48" src="src/assets/media/avatars/avatar8.jpg" alt="">
+                                                        <span class="overlay-item item item-tiny item-circle border border-2x border-white bg-success"></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Andrea Gardner</div>
+                                                        <div class="font-w400 text-muted">Copywriter</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2 overlay-container overlay-bottom">
+                                                        <img class="img-avatar img-avatar48" src="src/assets/media/avatars/avatar11.jpg" alt="">
+                                                        <span class="overlay-item item item-tiny item-circle border border-2x border-white bg-success"></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Jose Mills</div>
+                                                        <div class="font-w400 text-muted">Web Developer</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2 overlay-container overlay-bottom">
+                                                        <img class="img-avatar img-avatar48" src="src/assets/media/avatars/avatar7.jpg" alt="">
+                                                        <span class="overlay-item item item-tiny item-circle border border-2x border-white bg-success"></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Carol Ray</div>
+                                                        <div class="font-w400 text-muted">Web Designer</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2 overlay-container overlay-bottom">
+                                                        <img class="img-avatar img-avatar48" src="src/assets/media/avatars/avatar5.jpg" alt="">
+                                                        <span class="overlay-item item item-tiny item-circle border border-2x border-white bg-warning"></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Megan Fuller</div>
+                                                        <div class="font-w400 text-muted">Photographer</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2 overlay-container overlay-bottom">
+                                                        <img class="img-avatar img-avatar48" src="src/assets/media/avatars/avatar12.jpg" alt="">
+                                                        <span class="overlay-item item item-tiny item-circle border border-2x border-white bg-warning"></span>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Jose Parker</div>
+                                                        <div class="font-w400 text-muted">Graphic Designer</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- END Users Navigation -->
+                                    </div>
+                                </div>
+                                <!-- END Online Friends -->
+
+                                <!-- Quick Settings -->
+                                <div class="block mb-0">
+                                    <div class="block-header block-header-default">
+                                        <h3 class="block-title">Quick Settings</h3>
+                                        <div class="block-options">
+                                            <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"></button>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <!-- Quick Settings Form -->
+                                        <form action="be_pages_dashboard.html" method="POST" onsubmit="return false;">
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-2">
+                                                    Online Status
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check1" name="so-settings-check1" checked>
+                                                    <label class="custom-control-label" for="so-settings-check1">Show your status to all</label>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-2">
+                                                    Auto Updates
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check2" name="so-settings-check2" checked>
+                                                    <label class="custom-control-label" for="so-settings-check2">Keep up to date</label>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-1">
+                                                    Application Alerts
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check3" name="so-settings-check3" checked>
+                                                    <label class="custom-control-label" for="so-settings-check3">Email Notifications</label>
+                                                </div>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check4" name="so-settings-check4" checked>
+                                                    <label class="custom-control-label" for="so-settings-check4">SMS Notifications</label>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="form-group">
+                                                <p class="font-w600 mb-1">
+                                                    API
+                                                </p>
+                                                <div class="custom-control custom-switch mb-1">
+                                                    <input type="checkbox" class="custom-control-input" id="so-settings-check5" name="so-settings-check5" checked>
+                                                    <label class="custom-control-label" for="so-settings-check5">Enable access</label>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <!-- END Quick Settings Form -->
+                                    </div>
+                                </div>
+                                <!-- END Quick Settings -->
+                            </div>
+                            <!-- END Overview Tab -->
+
+                            <!-- Sales Tab -->
+                            <div class="tab-pane pull-x fade fade-right" id="so-sales" role="tabpanel">
+                                <div class="block mb-0">
+                                    <!-- Stats -->
+                                    <div class="block-content">
+                                        <div class="row items-push pull-t">
+                                            <div class="col-6">
+                                                <div class="font-w700 text-uppercase">Sales</div>
+                                                <a class="link-fx font-size-h3 font-w300" href="javascript:void(0)">22.030</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="font-w700 text-uppercase">Balance</div>
+                                                <a class="link-fx font-size-h3 font-w300" href="javascript:void(0)">Php4.589,00</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END Stats -->
+
+                                    <!-- Today -->
+                                    <div class="block-content block-content-full block-content-sm bg-body-light">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="font-w600 text-uppercase">Today</span>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <span class="ext-muted">Php996</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <ul class="nav-items push">
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php249</div>
+                                                        <small class="text-muted">3 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php129</div>
+                                                        <small class="text-muted">50 min ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php119</div>
+                                                        <small class="text-muted">2 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php499</div>
+                                                        <small class="text-muted">3 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- END Today -->
+
+                                    <!-- Yesterday -->
+                                    <div class="block-content block-content-full block-content-sm bg-body-light">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <span class="font-w600 text-uppercase">Yesterday</span>
+                                            </div>
+                                            <div class="col-6 text-right">
+                                                <span class="text-muted">Php765</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-content">
+                                        <ul class="nav-items push">
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php249</div>
+                                                        <small class="text-muted">26 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-danger"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Product Purchase - Php50</div>
+                                                        <small class="text-muted">28 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php119</div>
+                                                        <small class="text-muted">29 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-danger"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">Paypal Withdrawal - Php300</div>
+                                                        <small class="text-muted">37 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php129</div>
+                                                        <small class="text-muted">39 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php119</div>
+                                                        <small class="text-muted">45 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                                    <div class="mr-3 ml-2">
+                                                        <i class="fa fa-fw fa-circle text-success"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="font-w600">New sale! + Php499</div>
+                                                        <small class="text-muted">46 hours ago</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <!-- More -->
+                                        <div class="text-center">
+                                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
+                                                <i class="fa fa-arrow-down mr-1"></i> Load More..
+                                            </a>
+                                        </div>
+                                        <!-- END More -->
+                                    </div>
+                                    <!-- END Yesterday -->
+                                </div>
+                            </div>
+                            <!-- END Sales Tab -->
+                        </div>
+                    </div>
+                    <!-- END Side Overlay Tabs -->
+                </div>
+                <!-- END Side Content -->
+            </aside>
+            <!-- END Side Overlay -->
+
+            <!-- Sidebar -->
+            <!--
+                Sidebar Mini Mode - Display Helper classes
+
+                Adding 'smini-hide' class to an element will make it invisible (opacity: 0) when the sidebar is in mini mode
+                Adding 'smini-show' class to an element will make it visible (opacity: 1) when the sidebar is in mini mode
+                    If you would like to disable the transition animation, make sure to also add the 'no-transition' class to your element
+
+                Adding 'smini-hidden' to an element will hide it when the sidebar is in mini mode
+                Adding 'smini-visible' to an element will show it (display: inline-block) only when the sidebar is in mini mode
+                Adding 'smini-visible-block' to an element will show it (display: block) only when the sidebar is in mini mode
+            -->
+            <nav id="sidebar" aria-label="Main Navigation">
+                <!-- Side Header -->
+                <div class="content-header bg-white-5">
+                    <!-- Logo -->
+                    <a class="font-w600 text-dual" href="index.html">
+                        <span class="smini-hide">
+                            <img style="float:left; margin-right: 10px;" src="src/assets/media/images/BIR_Logo.png" alt="BIR" height="50" width="50">
+                            
+                            <span class="font-w700">Bureau Of Internal Revenue</span>
+                        </span>
+                    </a>
+                    <!-- END Logo -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side Navigation -->
+                <div class="content-side content-side-full">
+                    <ul class="nav-main">
+                        <li class="nav-main-item">
+                            <a class="nav-main-link active" href="#.html">
+                                <i class="nav-main-link-icon si si-note"></i>
+                                <span class="nav-main-link-name">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-main-heading">Menu</li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-energy"></i>
+                                <span class="nav-main-link-name">My Accounts</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_styles.html">
+                                        <span class="nav-main-link-name">Profile</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_options.html">
+                                        <span class="nav-main-link-name">Bank Accounts</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_blocks_forms.html">
+                                        <span class="nav-main-link-name">Settings</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-badge"></i>
+                                <span class="nav-main-link-name">My Business</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_grid.html">
+                                        <span class="nav-main-link-name">Add Existing</span>
+                                    </a>
+                                </li>                                
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_grid.html">
+                                        <span class="nav-main-link-name">Owned</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="be_ui_color_themes.html">
+                                        <span class="nav-main-link-name">Delegated</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-heading">Transactions</li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="transactions.html">
+                                <i class="nav-main-link-icon si si-wrench"></i>
+                                <span class="nav-main-link-name">Previous Transactions</span>
+                            </a>
+                        </li>                        
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#">
+                                <i class="nav-main-link-icon si si-wrench"></i>
+                                <span class="nav-main-link-name">Apply For ID</span>
+                            </a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-wrench"></i>
+                                <span class="nav-main-link-name">Registration</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">Local and Alien Employee</span>
+                                    </a>
+                                </li>                                
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="soleproprietorship.html">
+                                        <span class="nav-main-link-name">Single Proprietor</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">Partnership/Corporation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
+                                <i class="nav-main-link-icon si si-wrench"></i>
+                                <span class="nav-main-link-name">Payment</span>
+                            </a>
+                            <ul class="nav-main-submenu">
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">General</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">Expanded Withholding Tax</span>
+                                    </a>
+                                </li>
+                                <li class="nav-main-item">
+                                    <a class="nav-main-link" href="#">
+                                        <span class="nav-main-link-name">Final Income Tax</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- END Side Navigation -->
+            </nav>
+            <!-- END Sidebar -->
+
+            <!-- Header -->
+            <header id="page-header">
+                <!-- Header Content -->
+                <div class="content-header">
+                    <!-- Left Section -->
+                    <div class="d-flex align-items-center">
+                        <!-- Toggle Sidebar -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout()-->
+                        <button type="button" class="btn btn-sm btn-dual mr-2 d-lg-none" data-toggle="layout" data-action="sidebar_toggle">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+                        <!-- END Toggle Sidebar -->
+
+                        <!-- Toggle Mini Sidebar -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout()-->
+                        <button type="button" class="btn btn-sm btn-dual mr-2 d-none d-lg-inline-block" data-toggle="layout" data-action="sidebar_mini_toggle">
+                            <i class="fa fa-fw fa-ellipsis-v"></i>
+                        </button>
+                        <!-- END Toggle Mini Sidebar -->
+                        <!-- Open Search Section (visible on smaller screens) -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                        <button type="button" class="btn btn-sm btn-dual d-sm-none" data-toggle="layout" data-action="header_search_on">
+                            <i class="si si-magnifier"></i>
+                        </button>
+                        <!-- END Open Search Section -->
+
+                        <!-- Search Form (visible on larger screens) -->
+                        <form class="d-none d-sm-inline-block" action="be_pages_generic_search.html" method="POST">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control form-control-alt" placeholder="Search.." id="page-header-search-input2" name="page-header-search-input2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-body border-0">
+                                        <i class="si si-magnifier"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- END Search Form -->
+                    </div>
+                    <!-- END Left Section -->
+
+                    <!-- Right Section -->
+                    <div class="d-flex align-items-center">
+                        <!-- User Dropdown -->
+                        <div class="dropdown d-inline-block ml-2">
+                            <button type="button" class="btn btn-sm btn-dual" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded" src="src/assets/media/avatars/avatar10.jpg" alt="Header Avatar" style="width: 18px;">
+                                <span class="d-none d-sm-inline-block ml-1">Adam</span>
+                                <i class="fa fa-fw fa-angle-down d-none d-sm-inline-block"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-user-dropdown">
+                                <div class="p-3 text-center bg-primary">
+                                    <img class="img-avatar img-avatar48 img-avatar-thumb" src="src/assets/media/avatars/avatar10.jpg" alt="">
+                                </div>
+                                <div class="p-2">
+                                    <h5 class="dropdown-header text-uppercase">User Options</h5>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
+                                        <span>Inbox</span>
+                                        <span>
+                                            <span class="badge badge-pill badge-primary">3</span>
+                                            <i class="si si-envelope-open ml-1"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_profile.html">
+                                        <span>Profile</span>
+                                        <span>
+                                            <span class="badge badge-pill badge-success">1</span>
+                                            <i class="si si-user ml-1"></i>
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                                        <span>Settings</span>
+                                        <i class="si si-settings"></i>
+                                    </a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <h5 class="dropdown-header text-uppercase">Actions</h5>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="op_auth_lock.html">
+                                        <span>Lock Account</span>
+                                        <i class="si si-lock ml-1"></i>
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="op_auth_signin.html">
+                                        <span>Log Out</span>
+                                        <i class="si si-logout ml-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END User Dropdown -->
+
+                        <!-- Notifications Dropdown -->
+                        <div class="dropdown d-inline-block ml-2">
+                            <button type="button" class="btn btn-sm btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="si si-bell"></i>
+                                <span class="badge badge-primary badge-pill">6</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0 border-0 font-size-sm" aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-2 bg-primary text-center">
+                                    <h5 class="dropdown-header text-uppercase text-white">Notifications</h5>
+                                </div>
+                                <ul class="nav-items mb-0">
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-check-circle text-success"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">You have a new follower</div>
+                                                <small class="text-muted">15 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-plus-circle text-info"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">1 new sale, keep it up</div>
+                                                <small class="text-muted">22 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-times-circle text-danger"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">Update failed, restart server</div>
+                                                <small class="text-muted">26 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-plus-circle text-info"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">2 new sales, keep it up</div>
+                                                <small class="text-muted">33 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-user-plus text-success"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">You have a new subscriber</div>
+                                                <small class="text-muted">41 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dark media py-2" href="javascript:void(0)">
+                                            <div class="mr-2 ml-3">
+                                                <i class="fa fa-fw fa-check-circle text-success"></i>
+                                            </div>
+                                            <div class="media-body pr-2">
+                                                <div class="font-w600">You have a new follower</div>
+                                                <small class="text-muted">42 min ago</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="p-2 border-top">
+                                    <a class="btn btn-sm btn-light btn-block text-center" href="javascript:void(0)">
+                                        <i class="fa fa-fw fa-arrow-down mr-1"></i> Load More..
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Notifications Dropdown -->
+
+                        <!-- Toggle Side Overlay -->
+                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                        <button type="button" class="btn btn-sm btn-dual ml-2" data-toggle="layout" data-action="side_overlay_toggle">
+                            <i class="fa fa-fw fa-list-ul fa-flip-horizontal"></i>
+                        </button>
+                        <!-- END Toggle Side Overlay -->
+                    </div>
+                    <!-- END Right Section -->
+                </div>
+                <!-- END Header Content -->
+
+                <!-- Header Search -->
+                <div id="page-header-search" class="overlay-header bg-white">
+                    <div class="content-header">
+                        <form class="w-100" action="be_pages_generic_search.html" method="POST">
+                            <div class="input-group input-group-sm">
+                                <div class="input-group-prepend">
+                                    <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
+                                    <button type="button" class="btn btn-danger" data-toggle="layout" data-action="header_search_off">
+                                        <i class="fa fa-fw fa-times-circle"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- END Header Search -->
+
+                <!-- Header Loader -->
+                <!-- Please check out the Loaders page under Components category to see examples of showing/hiding it -->
+                <div id="page-header-loader" class="overlay-header bg-white">
+                    <div class="content-header">
+                        <div class="w-100 text-center">
+                            <i class="fa fa-fw fa-circle-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Header Loader -->
+            </header>
+            <!-- END Header -->
+
+            <!-- Main Container -->
+            <main id="main-container">
+
+                <!-- Hero -->
+                <div class="bg-image overflow-hidden" style="background-image: url('src/assets/media/photos/photo3@2x.jpg');">
+                    <div class="bg-primary-dark-op">
+                        <div class="content content-narrow content-full">
+                            <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center mt-5 mb-2 text-center text-sm-left">
+                                <div class="flex-sm-fill">
+                                    <h1 class="font-w600 text-white mb-0 invisible" data-toggle="appear">Home</h1>
+                                    <h2 class="h4 font-w400 text-white-75 mb-0 invisible" data-toggle="appear" data-timeout="250">Welcome back Adam!</h2>
+                                </div>
+                                <div class="flex-sm-00-auto mt-3 mt-sm-0 ml-sm-3">
+                                    <span class="d-inline-block invisible" data-toggle="appear" data-timeout="350">
+                                        <a class="btn btn-primary px-4 py-2" data-toggle="click-ripple" href="javascript:void(0)">
+                                            <i class="fa fa-plus mr-1"></i> Register New Business
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Hero -->
+
+                <div class="block">
+                    <div class="block-content">
+                        <div class="row items-push">
+                            <div class="col-md-4 col-lg-5 col-xl-4">
+                                <div class="col-6 col-md-12 col-lg-6 col-xl-12">
+                                    <a class="block block-rounded block-link-pop border-left border-primary border-4x" href="javascript:void(0)">
+                                        <div class="block-content block-content-full">
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Active Business</div>
+                                            <div class="font-size-h2 font-w400 text-dark">2</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-6 col-xl-4">
+                                    <a class="block block-rounded block-link-pop border-left border-success border-4x" href="javascript:void(0)">
+                                        <div class="block-content block-content-full">
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Active Transactions</div>
+                                            <div class="font-size-h2 font-w400 text-dark">3</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6 col-xl-4">
+                                    <a class="block block-rounded block-link-pop border-left border-danger border-4x" href="javascript:void(0)">
+                                        <div class="block-content block-content-full">
+                                            <div class="font-size-sm font-w600 text-uppercase text-muted">Overdue Payments</div>
+                                            <div class="font-size-h2 font-w400 text-dark">October 2019</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-8 col-lg-7 col-xl-8">
+                                <!-- Calendar Container -->
+                                <div class="js-calendar fc fc-bootstrap4 fc-ltr">
+                                    <div class="fc-toolbar fc-header-toolbar">
+                                        <div class="fc-left">
+                                            <h2>November 2019</h2></div>
+                                        <div class="fc-right">
+                                            <div class="btn-group">
+                                                <button type="button" class="fc-prev-button btn btn-primary" aria-label="prev"><span class="fa fa-chevron-left"></span></button>
+                                                <button type="button" class="fc-next-button btn btn-primary" aria-label="next"><span class="fa fa-chevron-right"></span></button>
+                                            </div>
+                                            <button type="button" class="fc-today-button btn btn-primary disabled" disabled="">today</button>
+                                            <div class="btn-group">
+                                                <button type="button" class="fc-month-button btn btn-primary active">month</button>
+                                                <button type="button" class="fc-agendaWeek-button btn btn-primary ">week</button>
+                                                <button type="button" class="fc-agendaDay-button btn btn-primary ">day</button>
+                                                <button type="button" class="fc-listWeek-button btn btn-primary ">list</button>
+                                            </div>
+                                        </div>
+                                        <div class="fc-center"></div>
+                                        <div class="fc-clear"></div>
+                                    </div>
+                                    <div class="fc-view-container" style="">
+                                        <div class="fc-view fc-month-view fc-basic-view" style="">
+                                            <table class="table-bordered">
+                                                <thead class="fc-head">
+                                                    <tr>
+                                                        <td class="fc-head-container ">
+                                                            <div class="fc-row table-bordered">
+                                                                <table class="table-bordered">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th class="fc-day-header  fc-mon"><span>Mon</span></th>
+                                                                            <th class="fc-day-header  fc-tue"><span>Tue</span></th>
+                                                                            <th class="fc-day-header  fc-wed"><span>Wed</span></th>
+                                                                            <th class="fc-day-header  fc-thu"><span>Thu</span></th>
+                                                                            <th class="fc-day-header  fc-fri"><span>Fri</span></th>
+                                                                            <th class="fc-day-header  fc-sat"><span>Sat</span></th>
+                                                                            <th class="fc-day-header  fc-sun"><span>Sun</span></th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                </table>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="fc-body">
+                                                    <tr>
+                                                        <td class="">
+                                                            <div class="fc-scroller fc-day-grid-container" style="overflow: hidden; height: 568.333px;">
+                                                                <div class="fc-day-grid fc-unselectable">
+                                                                    <div class="fc-row fc-week table-bordered" style="height: 94px;">
+                                                                        <div class="fc-bg">
+                                                                            <table class="table-bordered">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-day  fc-mon fc-other-month fc-past" data-date="2019-10-28"></td>
+                                                                                        <td class="fc-day  fc-tue fc-other-month fc-past" data-date="2019-10-29"></td>
+                                                                                        <td class="fc-day  fc-wed fc-other-month fc-past" data-date="2019-10-30"></td>
+                                                                                        <td class="fc-day  fc-thu fc-other-month fc-past" data-date="2019-10-31"></td>
+                                                                                        <td class="fc-day  fc-fri fc-past" data-date="2019-11-01"></td>
+                                                                                        <td class="fc-day  fc-sat fc-past" data-date="2019-11-02"></td>
+                                                                                        <td class="fc-day  fc-sun fc-past" data-date="2019-11-03"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="fc-content-skeleton">
+                                                                            <table>
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <td class="fc-day-top fc-mon fc-other-month fc-past" data-date="2019-10-28"><span class="fc-day-number">28</span></td>
+                                                                                        <td class="fc-day-top fc-tue fc-other-month fc-past" data-date="2019-10-29"><span class="fc-day-number">29</span></td>
+                                                                                        <td class="fc-day-top fc-wed fc-other-month fc-past" data-date="2019-10-30"><span class="fc-day-number">30</span></td>
+                                                                                        <td class="fc-day-top fc-thu fc-other-month fc-past" data-date="2019-10-31"><span class="fc-day-number">31</span></td>
+                                                                                        <td class="fc-day-top fc-fri fc-past" data-date="2019-11-01"><span class="fc-day-number">1</span></td>
+                                                                                        <td class="fc-day-top fc-sat fc-past" data-date="2019-11-02"><span class="fc-day-number">2</span></td>
+                                                                                        <td class="fc-day-top fc-sun fc-past" data-date="2019-11-03"><span class="fc-day-number">3</span></td>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" style="background-color:#faeab9;border-color:#faeab9">
+                                                                                                <div class="fc-content"> <span class="fc-title">All Saints day</span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+                                                                                                <div class="fc-content"> <span class="fc-title">All Souls day</span></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fc-row fc-week table-bordered" style="height: 94px;">
+                                                                        <div class="fc-bg">
+                                                                            <table class="table-bordered">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-day  fc-mon fc-past" data-date="2019-11-04"></td>
+                                                                                        <td class="fc-day  fc-tue fc-past" data-date="2019-11-05"></td>
+                                                                                        <td class="fc-day  fc-wed fc-past" data-date="2019-11-06"></td>
+                                                                                        <td class="fc-day  fc-thu fc-past" data-date="2019-11-07"></td>
+                                                                                        <td class="fc-day  fc-fri fc-past" data-date="2019-11-08"></td>
+                                                                                        <td class="fc-day  fc-sat fc-past" data-date="2019-11-09"></td>
+                                                                                        <td class="fc-day  fc-sun fc-past" data-date="2019-11-10"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="fc-content-skeleton">
+                                                                            <table>
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <td class="fc-day-top fc-mon fc-past" data-date="2019-11-04"><span class="fc-day-number">4</span></td>
+                                                                                        <td class="fc-day-top fc-tue fc-past" data-date="2019-11-05"><span class="fc-day-number">5</span></td>
+                                                                                        <td class="fc-day-top fc-wed fc-past" data-date="2019-11-06"><span class="fc-day-number">6</span></td>
+                                                                                        <td class="fc-day-top fc-thu fc-past" data-date="2019-11-07"><span class="fc-day-number">7</span></td>
+                                                                                        <td class="fc-day-top fc-fri fc-past" data-date="2019-11-08"><span class="fc-day-number">8</span></td>
+                                                                                        <td class="fc-day-top fc-sat fc-past" data-date="2019-11-09"><span class="fc-day-number">9</span></td>
+                                                                                        <td class="fc-day-top fc-sun fc-past" data-date="2019-11-10"><span class="fc-day-number">10</span></td>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td></td>
+                                                                                        <td class="fc-event-container" colspan="3">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" style="background-color:#fac5a5;border-color:#fac5a5">
+                                                                                                <div class="fc-content"> <span class="fc-title">DST Payment for October 2019</span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td class="fc-event-container" colspan="2">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" style="background-color:#fac5a5;border-color:#fac5a5">
+                                                                                                <div class="fc-content"> <span class="fc-title">Work</span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fc-row fc-week table-bordered" style="height: 94px;">
+                                                                        <div class="fc-bg">
+                                                                            <table class="table-bordered">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-day  fc-mon fc-past" data-date="2019-11-11"></td>
+                                                                                        <td class="fc-day  fc-tue fc-past" data-date="2019-11-12"></td>
+                                                                                        <td class="fc-day  fc-wed fc-past" data-date="2019-11-13"></td>
+                                                                                        <td class="fc-day  fc-thu fc-past" data-date="2019-11-14"></td>
+                                                                                        <td class="fc-day  fc-fri fc-past" data-date="2019-11-15"></td>
+                                                                                        <td class="fc-day  fc-sat fc-past" data-date="2019-11-16"></td>
+                                                                                        <td class="fc-day  fc-sun fc-today alert alert-info" data-date="2019-11-17"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="fc-content-skeleton">
+                                                                            <table>
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <td class="fc-day-top fc-mon fc-past" data-date="2019-11-11"><span class="fc-day-number">11</span></td>
+                                                                                        <td class="fc-day-top fc-tue fc-past" data-date="2019-11-12"><span class="fc-day-number">12</span></td>
+                                                                                        <td class="fc-day-top fc-wed fc-past" data-date="2019-11-13"><span class="fc-day-number">13</span></td>
+                                                                                        <td class="fc-day-top fc-thu fc-past" data-date="2019-11-14"><span class="fc-day-number">14</span></td>
+                                                                                        <td class="fc-day-top fc-fri fc-past" data-date="2019-11-15"><span class="fc-day-number">15</span></td>
+                                                                                        <td class="fc-day-top fc-sat fc-past" data-date="2019-11-16"><span class="fc-day-number">16</span></td>
+                                                                                        <td class="fc-day-top fc-sun fc-today alert alert-info" data-date="2019-11-17"><span class="fc-day-number">17</span></td>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+                                                                                                <div class="fc-content"><span class="fc-time">3p</span> <span class="fc-title">Biking (repeated)</span></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" style="background-color:#faeab9;border-color:#faeab9">
+                                                                                                <div class="fc-content"> <span class="fc-title">Party</span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" style="background-color:#faeab9;border-color:#faeab9">
+                                                                                                <div class="fc-content"> <span class="fc-title"></span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fc-row fc-week table-bordered" style="height: 94px;">
+                                                                        <div class="fc-bg">
+                                                                            <table class="table-bordered">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-day  fc-mon fc-future" data-date="2019-11-18"></td>
+                                                                                        <td class="fc-day  fc-tue fc-future" data-date="2019-11-19"></td>
+                                                                                        <td class="fc-day  fc-wed fc-future" data-date="2019-11-20"></td>
+                                                                                        <td class="fc-day  fc-thu fc-future" data-date="2019-11-21"></td>
+                                                                                        <td class="fc-day  fc-fri fc-future" data-date="2019-11-22"></td>
+                                                                                        <td class="fc-day  fc-sat fc-future" data-date="2019-11-23"></td>
+                                                                                        <td class="fc-day  fc-sun fc-future" data-date="2019-11-24"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="fc-content-skeleton">
+                                                                            <table>
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <td class="fc-day-top fc-mon fc-future" data-date="2019-11-18"><span class="fc-day-number">18</span></td>
+                                                                                        <td class="fc-day-top fc-tue fc-future" data-date="2019-11-19"><span class="fc-day-number">19</span></td>
+                                                                                        <td class="fc-day-top fc-wed fc-future" data-date="2019-11-20"><span class="fc-day-number">20</span></td>
+                                                                                        <td class="fc-day-top fc-thu fc-future" data-date="2019-11-21"><span class="fc-day-number">21</span></td>
+                                                                                        <td class="fc-day-top fc-fri fc-future" data-date="2019-11-22"><span class="fc-day-number">22</span></td>
+                                                                                        <td class="fc-day-top fc-sat fc-future" data-date="2019-11-23"><span class="fc-day-number">23</span></td>
+                                                                                        <td class="fc-day-top fc-sun fc-future" data-date="2019-11-24"><span class="fc-day-number">24</span></td>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td></td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+                                                                                                <div class="fc-content"><span class="fc-time">3p</span> <span class="fc-title">Biking (repeated)</span></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable" style="background-color:#fac5a5;border-color:#fac5a5">
+                                                                                                <div class="fc-content"><span class="fc-time">2p</span> <span class="fc-title">Lunch Meeting</span></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td class="fc-event-container" colspan="2">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable" href="http://twitter.com/pixelcave" style="background-color:#32ccfe;border-color:#32ccfe">
+                                                                                                <div class="fc-content"> <span class="fc-title"></span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fc-row fc-week table-bordered" style="height: 94px;">
+                                                                        <div class="fc-bg">
+                                                                            <table class="table-bordered">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-day  fc-mon fc-future" data-date="2019-11-25"></td>
+                                                                                        <td class="fc-day  fc-tue fc-future" data-date="2019-11-26"></td>
+                                                                                        <td class="fc-day  fc-wed fc-future" data-date="2019-11-27"></td>
+                                                                                        <td class="fc-day  fc-thu fc-future" data-date="2019-11-28"></td>
+                                                                                        <td class="fc-day  fc-fri fc-future" data-date="2019-11-29"></td>
+                                                                                        <td class="fc-day  fc-sat fc-future" data-date="2019-11-30"></td>
+                                                                                        <td class="fc-day  fc-sun fc-other-month fc-future" data-date="2019-12-01"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="fc-content-skeleton">
+                                                                            <table>
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <td class="fc-day-top fc-mon fc-future" data-date="2019-11-25"><span class="fc-day-number">25</span></td>
+                                                                                        <td class="fc-day-top fc-tue fc-future" data-date="2019-11-26"><span class="fc-day-number">26</span></td>
+                                                                                        <td class="fc-day-top fc-wed fc-future" data-date="2019-11-27"><span class="fc-day-number">27</span></td>
+                                                                                        <td class="fc-day-top fc-thu fc-future" data-date="2019-11-28"><span class="fc-day-number">28</span></td>
+                                                                                        <td class="fc-day-top fc-fri fc-future" data-date="2019-11-29"><span class="fc-day-number">29</span></td>
+                                                                                        <td class="fc-day-top fc-sat fc-future" data-date="2019-11-30"><span class="fc-day-number">30</span></td>
+                                                                                        <td class="fc-day-top fc-sun fc-other-month fc-future" data-date="2019-12-01"><span class="fc-day-number">1</span></td>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-event-container">
+                                                                                            <a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable">
+                                                                                                <div class="fc-content"> <span class="fc-title">Reading</span></div>
+                                                                                                <div class="fc-resizer fc-end-resizer"></div>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fc-row fc-week table-bordered" style="height: 98px;">
+                                                                        <div class="fc-bg">
+                                                                            <table class="table-bordered">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="fc-day  fc-mon fc-other-month fc-future" data-date="2019-12-02"></td>
+                                                                                        <td class="fc-day  fc-tue fc-other-month fc-future" data-date="2019-12-03"></td>
+                                                                                        <td class="fc-day  fc-wed fc-other-month fc-future" data-date="2019-12-04"></td>
+                                                                                        <td class="fc-day  fc-thu fc-other-month fc-future" data-date="2019-12-05"></td>
+                                                                                        <td class="fc-day  fc-fri fc-other-month fc-future" data-date="2019-12-06"></td>
+                                                                                        <td class="fc-day  fc-sat fc-other-month fc-future" data-date="2019-12-07"></td>
+                                                                                        <td class="fc-day  fc-sun fc-other-month fc-future" data-date="2019-12-08"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="fc-content-skeleton">
+                                                                            <table>
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <td class="fc-day-top fc-mon fc-other-month fc-future" data-date="2019-12-02"><span class="fc-day-number">2</span></td>
+                                                                                        <td class="fc-day-top fc-tue fc-other-month fc-future" data-date="2019-12-03"><span class="fc-day-number">3</span></td>
+                                                                                        <td class="fc-day-top fc-wed fc-other-month fc-future" data-date="2019-12-04"><span class="fc-day-number">4</span></td>
+                                                                                        <td class="fc-day-top fc-thu fc-other-month fc-future" data-date="2019-12-05"><span class="fc-day-number">5</span></td>
+                                                                                        <td class="fc-day-top fc-fri fc-other-month fc-future" data-date="2019-12-06"><span class="fc-day-number">6</span></td>
+                                                                                        <td class="fc-day-top fc-sat fc-other-month fc-future" data-date="2019-12-07"><span class="fc-day-number">7</span></td>
+                                                                                        <td class="fc-day-top fc-sun fc-other-month fc-future" data-date="2019-12-08"><span class="fc-day-number">8</span></td>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                        <td></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+
+
+
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="block block-rounded block-mode-loading-oneui">
+                                <div class="block-header">
+                                    <h3 class="block-title">Tax Payment History</h3>
+                                    <div class="block-options">
+                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                            <i class="si si-refresh"></i>
+                                        </button>
+                                        <button type="button" class="btn-block-option">
+                                            <i class="si si-settings"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="block-content p-0 bg-body-light text-center">
+                                    <!-- Chart.js is initialized in js/pages/be_pages_dashboard.min.js which was auto compiled from _es6/pages/be_pages_dashboard.js) -->
+                                    <!-- For more info and examples you can check out http://www.chartjs.org/docs/ -->
+                                    <div class="pt-3" style="height: 360px;"><canvas class="js-chartjs-dashboard-earnings"></canvas></div>
+                                </div>
+              <!--                   <div class="block-content">
+                                    <div class="row items-push text-center py-3">
+                                        <div class="col-6 col-xl-3">
+                                            <i class="fa fa-wallet fa-2x text-muted"></i>
+                                            <div class="text-muted mt-3">Php148,000</div>
+                                        </div>
+                                        <div class="col-6 col-xl-3">
+                                            <i class="fa fa-angle-double-up fa-2x text-muted"></i>
+                                            <div class="text-muted mt-3">+9% Earnings</div>
+                                        </div>
+                                        <div class="col-6 col-xl-3">
+                                            <i class="fa fa-ticket-alt fa-2x text-muted"></i>
+                                            <div class="text-muted mt-3">+20% </div>
+                                        </div>
+                                        <div class="col-6 col-xl-3">
+                                            <i class="fa fa-users fa-2x text-muted"></i>
+                                            <div class="text-muted mt-3">+46% Clients</div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="block block-mode-loading-oneui">
+                                <div class="block-header border-bottom">
+                                    <h3 class="block-title">Recent Transactions</h3>
+                                    <div class="block-options">
+                                        <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
+                                            <i class="si si-refresh"></i>
+                                        </button>
+                                        <button type="button" class="btn-block-option">
+                                            <i class="si si-settings"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="block-content block-content-full">
+                                    <table class="table table-striped table-hover table-borderless table-vcenter font-size-sm mb-0">
+                                        <thead class="thead-dark">
+                                            <tr class="text-uppercase">
+                                                <th class="font-w700">ID</th>
+                                                <th class="d-none d-sm-table-cell font-w700">Date</th>
+                                                <th class="font-w700">State</th>
+                                                <th class="d-none d-sm-table-cell font-w700 text-right" style="width: 120px;">Amount</th>
+                                                <th class="font-w700 text-center" style="width: 60px;"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07835</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">today</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-warning">Pending..</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php999,99
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07834</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">today</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-warning">Pending..</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php2.299,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07833</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">today</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-success">Completed</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php1200,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07832</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">today</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-danger">Cancelled</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php399,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07831</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">yesterday</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-success">Completed</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php349,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07830</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">yesterday</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-success">Completed</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php999,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                <!--             <tr>
+                                                <td>
+                                                    <span class="font-w600">#07829</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">yesterday</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-success">Completed</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php39,99
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07828</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">yesterday</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-success">Completed</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php499,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class="font-w600">#07827</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell">
+                                                    <span class="font-size-sm text-muted">yesterday</span>
+                                                </td>
+                                                <td>
+                                                    <span class="font-w600 text-success">Completed</span>
+                                                </td>
+                                                <td class="d-none d-sm-table-cell text-right">
+                                                    Php325,00
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
+                                                        <i class="fa fa-fw fa-pencil-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </div>
+                    
+                </div>
+
+
+            </main>
+            <!-- END Main Container -->
+
+            <!-- Footer 
+            <footer id="page-footer" class="bg-body-light">
+                <div class="content py-3">
+                    <div class="row font-size-sm">
+                        <div class="col-sm-6 order-sm-2 py-1 text-center text-sm-right">
+                            Crafted with <i class="fa fa-heart text-danger"></i> by <a class="font-w600" href="https://1.envato.market/ydb" target="_blank">pixelcave</a>
+                        </div>
+                        <div class="col-sm-6 order-sm-1 py-1 text-center text-sm-left">
+                            <a class="font-w600" href="https://1.envato.market/xWy" target="_blank">OneUI 4.2</a> &copy; <span data-toggle="year-copy"></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>-->
+        </div>
+        <script src="src/assets/js/oneui.core.min.js"></script>
+        <script src="src/assets/js/oneui.app.min.js"></script>
+        <script src="src/assets/js/plugins/chart.js/Chart.bundle.min.js"></script>
+        <script src="src/assets/js/pages/be_pages_dashboard.min.js"></script>
+
+        <script src="assets/js/plugins/moment/moment.min.js"></script>
+        <script src="assets/js/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+        <!-- Page JS Code -->
+        <script src="assets/js/pages/be_comp_calendar.min.js"></script>
+
+
+
+    </body>
+</html>
